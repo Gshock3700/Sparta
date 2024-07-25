@@ -1,13 +1,3 @@
-# Copyright (c) RedTiger (https://redtiger.shop)
-# See the file 'LICENSE' for copying permission
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------|
-# EN: 
-#     - Do not touch or modify the code below. If there is an error, please contact the owner, but under no circumstances should you touch the code.
-#     - Do not resell this tool, do not credit it to yours.
-# FR: 
-#     - Ne pas toucher ni modifier le code ci-dessous. En cas d'erreur, veuillez contacter le propriétaire, mais en aucun cas vous ne devez toucher au code.
-#     - Ne revendez pas ce tool, ne le créditez pas au vôtre.
-
 from Settings.Program.Config.Config import *
 from Settings.Program.Config.Util import *
 
@@ -197,7 +187,7 @@ page1 = f"""{white}[{red}Menu n°1{white}]
    {white}[{red}09{white}] {red}->{white} {option_09_txt} {white}[{red}19{white}] {red}->{white} {option_19_txt} {white}[{red}29{white}] {red}->{white} {option_29_txt}
    {white}[{red}10{white}] {red}->{white} {option_10_txt} {white}[{red}20{white}] {red}->{white} {option_20_txt} {white}[{red}30{white}] {red}-> {option_next_txt}
 
-{red}┌───({white}{username_pc}@redtiger{red})─[{white}~/Menu-1{red}]""".replace("(Osint)", f"{red}(Osint){white}").replace("(Lookup)", f"{red}(Lookup){white}").replace("(Stealer, Malware)", f"{red}(Stealer, Malware){white}").replace("(Paid)", f"{red}(Paid){white}")
+{red}┌───({white}{username_pc}@sparta{red})─[{white}~/Menu-1{red}]""".replace("(Osint)", f"{red}(Osint){white}").replace("(Lookup)", f"{red}(Lookup){white}").replace("(Stealer, Malware)", f"{red}(Stealer, Malware){white}").replace("(Paid)", f"{red}(Paid){white}")
 
 page2 = f"""{white}[{red}Menu n°2{white}]
    {white}[{red}31{white}] {red}-> {option_previous_txt} {white}[{red}41{white}] {red}->{white} {option_41_txt} {white}[{red}51{white}] {red}->{white} {option_51_txt}
@@ -211,7 +201,7 @@ page2 = f"""{white}[{red}Menu n°2{white}]
    {white}[{red}39{white}] {red}->{white} {option_39_txt} {white}[{red}49{white}] {red}->{white} {option_49_txt} {white}[{red}59{white}] {red}->{white} {option_59_txt}
    {white}[{red}40{white}] {red}->{white} {option_40_txt} {white}[{red}50{white}] {red}->{white} {option_50_txt} {white}[{red}60{white}] {red}-> {option_next_txt}
 
-{red}┌───({white}{username_pc}@redtiger{red})─[{white}~/Menu-2{red}]""".replace("(Osint)", f"{red}(Osint){white}").replace("(Lookup)", f"{red}(Lookup){white}").replace("(Stealer, Malware)", f"{red}(Stealer, Malware){white}").replace("(Paid)", f"{red}(Paid){white}")
+{red}┌───({white}{username_pc}@sparta{red})─[{white}~/Menu-2{red}]""".replace("(Osint)", f"{red}(Osint){white}").replace("(Lookup)", f"{red}(Lookup){white}").replace("(Stealer, Malware)", f"{red}(Stealer, Malware){white}").replace("(Paid)", f"{red}(Paid){white}")
 
 def Menu():
    try:
