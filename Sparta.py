@@ -222,9 +222,9 @@ def Menu():
                              SPARTA ON TOP
 
                                            {white}{github_tool}
-                                                     {white}╔════════════╗
-                                                     {white}║ {red}Multi-Tool{white} ║
-                                                     {white}╚════════════╝
+                                                     {white}╔═══════════════╗
+                                                     {white}║ {red}SPARTA ON TOP{white} ║
+                                                     {white}╚═══════════════╝
    {page}"""
    return menu
 
