@@ -34,7 +34,6 @@ except:
 
 option_01 = "Tool-Info"
 option_02 = "Tool-Website"
-option_03 = "Obfuscator-Tool-(Paid)"
 option_04 = "Virus-Build-(Stealer,-Malware)"
 option_05 = "Sql-Vulnerability"
 option_06 = "Phishing-Attack"
@@ -105,7 +104,6 @@ option_previous = "<< Previous Page"
 
 option_01_txt = option_01.ljust(30)[:30].replace("-", " ")
 option_02_txt = option_02.ljust(30)[:30].replace("-", " ")
-option_03_txt = option_03.ljust(30)[:30].replace("-", " ")
 option_04_txt = option_04.ljust(30)[:30].replace("-", " ")
 option_05_txt = option_05.ljust(30)[:30].replace("-", " ")
 option_06_txt = option_06.ljust(30)[:30].replace("-", " ")
@@ -178,7 +176,7 @@ option_next_txt = option_next.ljust(30)[:30]
 page1 = f"""{white}[{red}Menu n°1{white}]
    {white}[{red}01{white}] {red}->{white} {option_01_txt} {white}[{red}11{white}] {red}->{white} {option_11_txt} {white}[{red}21{white}] {red}->{white} {option_21_txt}
    {white}[{red}02{white}] {red}->{white} {option_02_txt} {white}[{red}12{white}] {red}->{white} {option_12_txt} {white}[{red}22{white}] {red}->{white} {option_22_txt}
-   {white}[{red}03{white}] {red}->{white} {option_03_txt} {white}[{red}13{white}] {red}->{white} {option_13_txt} {white}[{red}23{white}] {red}->{white} {option_23_txt}
+   {option_03_txt} {white}[{red}13{white}] {red}->{white} {option_13_txt} {white}[{red}23{white}] {red}->{white} {option_23_txt}
    {white}[{red}04{white}] {red}->{white} {option_04_txt} {white}[{red}14{white}] {red}->{white} {option_14_txt} {white}[{red}24{white}] {red}->{white} {option_24_txt}
    {white}[{red}05{white}] {red}->{white} {option_05_txt} {white}[{red}15{white}] {red}->{white} {option_15_txt} {white}[{red}25{white}] {red}->{white} {option_25_txt}
    {white}[{red}06{white}] {red}->{white} {option_06_txt} {white}[{red}16{white}] {red}->{white} {option_16_txt} {white}[{red}26{white}] {red}->{white} {option_26_txt}
@@ -250,9 +248,6 @@ while True:
 
       elif choice in ['2', '02']:
          StartProgram(f"{option_02}.py")
-
-      elif choice in ['3', '03']:
-         StartProgram(f"{option_03}.py")
 
       elif choice in ['4', '04']:
          StartProgram(f"{option_04}.py")
