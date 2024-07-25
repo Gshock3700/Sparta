@@ -34,6 +34,7 @@ except:
 
 option_01 = "Tool-Info"
 option_02 = "Tool-Website"
+option_03 = "Obfuscator-Tool-(Paid)"
 option_04 = "Virus-Build-(Stealer,-Malware)"
 option_05 = "Sql-Vulnerability"
 option_06 = "Phishing-Attack"
@@ -200,7 +201,7 @@ page2 = f"""{white}[{red}Menu n°2{white}]
    {white}[{red}39{white}] {red}->{white} {option_39_txt} {white}[{red}49{white}] {red}->{white} {option_49_txt} {white}[{red}59{white}] {red}->{white} {option_59_txt}
    {white}[{red}40{white}] {red}->{white} {option_40_txt} {white}[{red}50{white}] {red}->{white} {option_50_txt} {white}[{red}60{white}] {red}-> {option_next_txt}
 
-{red}┌───({white}{username_pc}@sparta{red})─[{white}~/Menu-2{red}]""".replace("(Osint)", f"{red}(Osint){white}").replace("(Lookup)", f"{red}(Lookup){white}").replace("(Stealer, Malware)", f"{red}(Stealer, Malware){white}").replace("(Paid)", f"{red}(Paid){white}")
+{red}┌───({white}{username_pc}@redtiger{red})─[{white}~/Menu-2{red}]""".replace("(Osint)", f"{red}(Osint){white}").replace("(Lookup)", f"{red}(Lookup){white}").replace("(Stealer, Malware)", f"{red}(Stealer, Malware){white}").replace("(Paid)", f"{red}(Paid){white}")
 
 def Menu():
    try:
@@ -220,8 +221,7 @@ def Menu():
       Title("Menu 1")
 
    menu = f"""{popup_version}{red}                                                                                                  
- SPARTA ON TOP  
-
+   SPARTA ON TOP 
                                            {white}{github_tool}
                                                      {white}╔════════════╗
                                                      {white}║ {red}Multi-Tool{white} ║
